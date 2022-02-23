@@ -9,8 +9,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to bottom,white, #bbe2e9, #a2e0eb);
-    max-width: 100vw;
-    max-height: 100vh;
+    
 }
 
 main{
@@ -108,7 +107,6 @@ body .chamada{
     color:white;
     background-color: #73bce9;
 }
-
 
 
 
