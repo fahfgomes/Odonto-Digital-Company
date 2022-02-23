@@ -80,13 +80,7 @@ nav li a{
     border-radius: 40%;
     cursor: pointer;
 }
-body .chamada{
-    width: 120px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: red;
-}
+
 #sobrenos{
 color: transparent;
 }
@@ -147,6 +141,7 @@ color: transparent;
 .descripition-content h1{
     margin-left: 85px;
     margin-top: 40px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
     color: #424242;
 }
@@ -173,18 +168,17 @@ color: transparent;
     width: 80%;
     height: 450px;
     margin: auto;
-    background-color: transparent;
-    background-image: linear-gradient(180deg,#1CC1981C 44%,#1CC1980D 80%);
-    box-shadow: #5D5D5D 1px 4px 6px;
     display: flex;
     flex-direction: column;
 
 }
 .objetivo h2{
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     font-family: 'Poppins', sans-serif;
     color: #424242;
+    font-size: 30px;
+    font-weight: 600;
 
 }
 
@@ -196,12 +190,23 @@ color: transparent;
 .icones .icone-1{
     flex: 3;
     height: 90%;
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#1CC1981C 44%,#1CC1980D 80%);
+    box-shadow: #5D5D5D 1px 4px 6px;
+    margin-right: 20px;
 }   
 .icones .icone-2{
     flex: 3;
     height: 90%;
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#1CC1981C 44%,#1CC1980D 80%);
+    box-shadow: #5D5D5D 1px 4px 6px;
+    margin-right: 20px;
 }
 .icones .icone-3{
     flex: 3;
     height: 90%;
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#1CC1981C 44%,#1CC1980D 80%);
+    box-shadow: #5D5D5D 1px 4px 6px;
 }
