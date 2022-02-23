@@ -8,6 +8,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to bottom,white, #bbe2e9, #a2e0eb);
 }
 
 main{
@@ -16,7 +17,6 @@ main{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;   
-    background-image: linear-gradient(to bottom,white, #bbe2e9, #a2e0eb);
 }
 
 header{
@@ -27,6 +27,11 @@ header{
     margin-top: 30px;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
 }
 .conteudo{
     font-family: 'PT Sans', sans-serif;
@@ -46,6 +51,7 @@ header{
     width: 100px;
     height: 100px;
     border-radius: 40%;
+    cursor: pointer;
 }
 body .chamada{
     width: 120px;
@@ -58,4 +64,28 @@ body .chamada{
 .hub{
     width: 300px;
     height: 500px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #dff1f4;
+    padding: 15px;
+    border-radius: 25px;
+    
+}
+
+.nav_links li a:hover{
+    color:white;
+    background-color: #73bce9;
 }
