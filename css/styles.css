@@ -225,4 +225,25 @@ body .chamada{
         font-size: 45px;
         line-height: 55px;
     }
+    .content{
+        flex-direction: column;
+        height: 1050px;
+        position: relative;
+        left: 13px;
+        }
+    .content-foto img{
+        height: 100%;
+        width: 100%;
+    }
+.descripition-content h1{
+    margin-left: 25px;
+    margin-top: 0px;   
+    position: relative;
+    left: 7px; 
+}
+
+.descripition-content h1 span{
+    position: relative; 
+    left: 35px;
+}
 }
