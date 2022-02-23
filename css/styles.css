@@ -9,6 +9,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to bottom,white, #bbe2e9, #a2e0eb);
+    width: 100%;
     
 }
 
@@ -18,6 +19,7 @@ main{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;   
+    
 }
 
 header{
@@ -36,8 +38,7 @@ header{
     font-weight: 500;
     font-size: 13px;
     position: relative;
-    left: 32px;
-    bottom: 40px;
+    margin-left: 30px;
     color: #9e9b9b;
 }
 nav li a{
@@ -50,7 +51,8 @@ nav li a{
     margin: auto;
     border-radius: 15%;
     position: relative;
-    bottom: 35px;
+    margin-top: -35px;
+
 }
 .conteudo{
     font-family: 'PT Sans', sans-serif;
