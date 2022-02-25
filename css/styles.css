@@ -8,7 +8,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom,rgb(237, 242, 243), #bbe2e9, #a2e0eb);
+    background-image: linear-gradient(to bottom,rgb(237, 242, 243), #c1e1e9, #a1d6c0);
     width: 100%;
     
 }
@@ -160,11 +160,6 @@ color: transparent;
 }
 
 .objetivo{
-    height: 200px;
-    
-}
-
-.objetivo{
     width: 80%;
     height: 450px;
     margin: auto;
@@ -189,18 +184,34 @@ color: transparent;
     color: #7c7676;
 }
 
-.objetivo .icones{
+.icones{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     height: 100%;
+    justify-content: center;
 }
 .icones .icone-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 3;
     background-color: transparent;
     background-image: linear-gradient(180deg,#1CC1981C 44%,#1CC1980D 80%);
     box-shadow: #5D5D5D 1px 4px 6px;
     margin-right: 20px;
-}   
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.icone-1 p{
+    padding: 10px;
+}
+.icone-1 h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #424242;
+}
 
 .icones .icone-2{
     flex: 3;
@@ -215,6 +226,31 @@ color: transparent;
     background-image: linear-gradient(180deg,#1CC1981C 44%,#1CC1980D 80%);
     box-shadow: #5D5D5D 1px 4px 6px;
 }
-.icone-3 img{
-    justify-self: center;
+
+
+.icones .icone-et-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 3;
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#a0f79891 44%,#87eb8752 80%);
+    box-shadow: #5D5D5D 1px 4px 6px;
+    margin-right: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.icones .icone-et-2{
+    flex: 3;
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#a0f79891 44%,#87eb8752 80%);
+    box-shadow: #5D5D5D 1px 4px 6px;
+    margin-right: 20px;
+}
+.icones .icone-et-3{
+    flex: 3;
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#a0f79891 44%,#87eb8752 80%);
+    box-shadow: #5D5D5D 1px 4px 6px;
 }
