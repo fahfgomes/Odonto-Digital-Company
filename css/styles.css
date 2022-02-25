@@ -164,7 +164,7 @@ color: transparent;
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 250px;
+    margin-bottom: 125px;
 
 }
 .objetivo h2{
@@ -332,3 +332,44 @@ color: transparent;
     font-size: 25px;
     color: #424242;
 }
+
+.btn-interacao {
+    display: flex;
+    justify-content: center;
+    font-family: impact;
+    color: #000000 !important;
+    max-width: 350px;
+    font-size: 17px;
+    box-shadow: 0px 0px 0px #F90000;
+    padding: 22px 17px;
+    border-radius: 18px;
+    border: 2px solid #A30000;
+    background: #FF0800;
+    
+  }
+  .btn-interacao:hover {
+    color: #1F0000 !important;
+    background: #FF5912;
+    border: 2px solid #A30000;
+  }
+  .btn-interacao a{
+    text-decoration: none;
+    font-family: impact;
+    color: #000000;
+  }
+  .coteudobtn{
+      display: flex;
+      justify-content: center;
+  }
+
+  .faq{
+      display: flex;
+      margin-left: 30px;
+      margin-top: 200px;
+  }
+
+  .h1-duvidas{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #424242;
+  }
