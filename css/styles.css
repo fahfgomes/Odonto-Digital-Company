@@ -378,3 +378,13 @@ color: transparent;
   .a-duvidas{
       margin-left: 30px;
   }
+
+  .duvidas dt{
+    cursor: pointer;
+  }
+
+  .duvidas dt:hover{
+  }
+  .duvidas dd{
+      display: none;
+  }
