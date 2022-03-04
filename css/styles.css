@@ -144,6 +144,7 @@ color: transparent;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     color: #424242;
+    
 }
 
 #sobre{
@@ -159,14 +160,17 @@ color: transparent;
 
 }
 
+
 .objetivo{
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 125px;
+    margin-bottom: 250px;
 
 }
+
+
 .objetivo h2{
     display: flex;
     justify-content:flex-start;
@@ -345,8 +349,8 @@ color: transparent;
     border-radius: 18px;
     border: 2px solid #A30000;
     background: #FF0800;
-    
   }
+
   .btn-interacao:hover {
     color: #1F0000 !important;
     background: #FF5912;
@@ -360,6 +364,7 @@ color: transparent;
   .coteudobtn{
       display: flex;
       justify-content: center;
+      margin-top: -125px;
   }
 
   .faq{
@@ -424,3 +429,41 @@ color: transparent;
     display: none;
     padding: 20px;
 } 
+
+footer{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    background-color: #98ecd7b6;
+    font-family: 'Poppins';
+    color: #424242;
+}
+
+
+footer .icones-footer{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: -20px;
+}
+
+.icones-footer img{
+    max-height: 36px;
+    max-width: 36px;
+}
+
+.icones-footer span{
+    margin-left: 5px;
+}
+.direitos{
+    display: flex;
+    justify-content: center;
+}
+
+.content-footer h5{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+
