@@ -377,14 +377,50 @@ color: transparent;
 
   .a-duvidas{
       margin-left: 30px;
+      font-family: 'Poppins', sans-serif;
+  }
+  .a-duvidas p{
+    font-size: 15px;
+    color: #424242;
   }
 
-  .duvidas dt{
+#q1{
     cursor: pointer;
-  }
+    padding: 20px;
+}  
 
-  .duvidas dt:hover{
-  }
-  .duvidas dd{
-      display: none;
-  }
+#r1{
+    display: none;
+    padding: 20px;
+} 
+
+
+#q2{
+    cursor: pointer;
+    padding: 20px;
+}  
+
+#r2{
+    display: none;
+    padding: 20px;
+} 
+
+#q3{
+    cursor: pointer;
+    padding: 20px;
+}  
+
+#r3{
+    display: none;
+    padding: 20px;
+} 
+
+#q4{
+    cursor: pointer;
+    padding: 20px;
+}  
+
+#r4{
+    display: none;
+    padding: 20px;
+} 
