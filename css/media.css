@@ -298,7 +298,7 @@
   } 
 
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1239px) {
     
     header{
         margin-bottom: 40px;
