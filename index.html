@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./images/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="/js/script.js"></script>
     <title>Odonto Digital Company</title>
+
 </head>
 <body>
     <header>
@@ -129,29 +131,17 @@
             <h1 id="faq">Dúvidas Frequentes</h1>
         </div>
         <div class="a-duvidas">
-            <h3>Como funciona a consultoria?</h3>
-            <p>A nossa equipe de marketing fará uma breve reunião com você, onde te mostrará como alavancar o faturamento e os bons resultados de sua clínica utilizando o marketing digital e estratégias personalizadas para clínicas odontológicas.</p>
-            <h3>Quando será?</h3>
-            <p>No melhor dia para você. Basta preencher o formulário e enviar seus dados para agendar um horário conosco.</p>
-            <h3>Onde será?</h3>
-            <p>A reunião acontece de forma virtual, basta possuir acesso à internet para participar.</p>
-            <h3>Quanto tempo durará?</h3>
-            <p>A reunião durará no máximo 40 minutos, sendo abordados diversos tópicos demonstrando nossas estratégias para melhorar os seus resultados.</p>
+            <h3 onclick="toggle_visibility('r1');" id="q1" >Como funciona a consultoria?</h3>
+            <p id="r1">A nossa equipe de marketing fará uma breve reunião com você, onde te mostrará como alavancar o faturamento e os bons resultados de sua clínica utilizando o marketing digital e estratégias personalizadas para clínicas odontológicas.</p>
+            <h3 onclick="toggle_visibility('r2');" id="q2">Quando será?</h3>
+            <p id="r2">No melhor dia para você. Basta preencher o formulário e enviar seus dados para agendar um horário conosco.</p>
+            <h3 onclick="toggle_visibility('r3');" id="q3">Onde será?</h3>
+            <p id="r3">A reunião acontece de forma virtual, basta possuir acesso à internet para participar.</p>
+            <h3 onclick="toggle_visibility('r4');" id="q4">Quanto tempo durará?</h3>
+            <p id="r4" >A reunião durará no máximo 40 minutos, sendo abordados diversos tópicos demonstrando nossas estratégias para melhorar os seus resultados.</p>
         </div>
     </div>
-
-    <div class="duvidas">
-        <dl>
-            <dt>Como funciona a consultoria?</dt>
-            <dd>A nossa equipe de marketing fará uma breve reunião com você, onde te mostrará como alavancar o faturamento e os bons resultados de sua clínica utilizando o marketing digital e estratégias personalizadas para clínicas odontológicas.</dd>
-            <dt>Quando será?</dt>
-            <dd>No melhor dia para você. Basta preencher o formulário e enviar seus dados para agendar um horário conosco.</dd>
-            <dt>Onde será?</dt>
-            <dd>A reunião acontece de forma virtual, basta possuir acesso à internet para participar.</dd>
-            <dt>Quanto tempo durará?</dt>
-            <dd>A reunião durará no máximo 40 minutos, sendo abordados diversos tópicos demonstrando nossas estratégias para melhorar os seus resultados.</dd>
-        </dl>
-    </div>
+    
     <footer></footer>
 </body>
 
